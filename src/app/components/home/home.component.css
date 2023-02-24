@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width: 769px) {
+    *{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:769px) and (max-width: 1200px) {
+    *{
+        font-size: 14px;
+    }
+}
+.navbar {
+    background-color: #E4DCCF;
+}
+.section-subscribe {
+    padding: 5em 0;
+    background-color: #F0EBE3;
+}
+.form-control{
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    height: 50px;
+}
+.form-control:focus {
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2) !important;
+}
+.form-control:focus, form.control:active {
+    outline: none
+}
+.btn {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.btn.btn-primary {
+    color: white;
+    background: black;
+    border-color: black;
+    margin-top: 15px;
+}
+.btn.btn-secondary {
+    color: white;
+    border-width: 2px;
+    background: black;
+    border-color: black;
+    padding: 10px;
+}
+.site-footer{
+    padding: 5em 0;
+    background:  #E4DCCF;
+    font-size: 1rem;
+    color: black;
+}
+.site-footer p:last-child {
+    margin-bottom: 0;
+}
+.site-footer a {
+    color: #A7727D;
+    border-bottom: 1px solid transparent;
+}
+.site-footer a:hover{
+    color: black;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.site-footer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 28px;
+    color: black;
+}
+.site-footer .footer-link li {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+#text-gf{
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.principal-header{
+    background-color: #F0EBE3;
+}
+.display-7{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.section{
+    background-color: aliceblue;
+}
